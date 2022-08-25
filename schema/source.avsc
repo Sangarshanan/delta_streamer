@@ -1,0 +1,36 @@
+{
+    "name": "test_data_source",
+    "type": "record",
+    "fields": [
+        {
+            "name": "event",
+            "type": {
+                "name": "event",
+                "type": "record",
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "number",
+                        "type": "int"
+                    },
+                    {
+                        "name": "date",
+                        "type": "string"
+                    }
+                ],
+                "default": null
+            }
+        },
+        {
+            "name": "data_source",
+            "type": "string"
+        },
+        {
+            "name": "date",
+            "type": "string"
+        }
+    ]
+}
